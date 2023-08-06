@@ -7,19 +7,19 @@ public class Main {
         Playstation playstation = new Playstation();
         Computer computer = new Computer();
 
-        xbox.addController();
+        XboxController xboxController = new XboxController();
+        xbox.addController(xboxController);
         xbox.open();
-        xbox.shutDown();
         xbox.playGame();
 
-        playstation.addController();
+        PlaystationController playstationController = new PlaystationController();
+        playstation.addController(playstationController);
         playstation.open();
-        playstation.shutDown();
         playstation.playGame();
 
-        computer.addController();
+
+        computer.addController(playstationController);
         computer.open();
-        computer.shutDown();
         computer.playGame();
     }
 }
