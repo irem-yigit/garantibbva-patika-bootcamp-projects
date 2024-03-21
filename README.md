@@ -1,7 +1,7 @@
 # GarantiBBVA_Patika_Odevler
  Garanti BBVA Becoder Yazilimci Yetistirme ve Meslek Edindirme Programi odevlerini icerir. 
- Bankacılık uygulaması:
-Bir spring boot application oluşturunuz.
+ 
+ Bankacılık uygulaması:  Bir spring boot application oluşturunuz.
 1. Customer ve Account adında 2 tane entity tanımlayın.
  Customer:
   - Id,
